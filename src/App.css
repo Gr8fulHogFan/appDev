@@ -1,0 +1,120 @@
+.App {
+  background-color: #C2F5FC;
+  text-align: center;
+  box-shadow: 10px 10px 5px #888888;
+  border: 1px solid black;
+  color: #052378;
+}
+.App-header-h1-title {
+  text-align: center;
+}
+.App-header-h2-title {
+  text-align: center;
+}
+
+.App-data-entry {
+    box-shadow: 10px 10px 5px #888888;
+    margin-right: auto;
+    border: 3px solid black;
+    margin-left: 3px;
+}
+
+.App-select-list {
+  color: #052378;
+  text-align: left;
+  padding:20px;
+/*  border: 1px solid black;*/
+  margin-left: 3px;
+  margin-right: auto;
+/*  box-shadow: 10px 10px 5px #888888;*/
+  text-shadow: 1px 1px #888888;
+}
+
+.TabForm {
+  box-shadow: 10px 10px 5px #888888;
+  margin-left: 3px;
+  margin-right: auto;
+  color: black;
+  background-color: #C2F5FC;
+  border: 3px solid black;
+  display: -webkit-flex;
+  display:flex;
+  -webkit-flex-direction: row;
+  flex-direction: column;
+}
+
+.TabFormTitle {
+  color: #052378;
+  text-shadow: 1px 1px #888888;
+  text-align:center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  width: 80px;
+}
+
+.App-header {
+  background-color: #C2F5FC;
+  height: 110px;
+  padding: 1px;
+  color: #052378;
+  text-shadow: 3px 3px #888888;
+/*  box-shadow: 10px 10px 5px #888888;*/
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.saveButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.cancelButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.slideOrganHeader {
+  font-size: 20px;
+  text-shadow: 1px 1px #888888;
+}
+
+.infoHeader {
+  font-size: 20px;
+  text-shadow: 1px 1px #888888;
+}
+
+.colunmHeader {
+  text-decoration: underline;
+  font-weight:bold;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes mymove {
+  from {background-color: #01DAFC;}
+  to {background-color: #C2F5FC;}
+}

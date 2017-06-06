@@ -1,0 +1,26 @@
+{
+  "name": "micropath",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-data-grid": "^2.0",
+    "react-dom": "^15.5.4",
+    "react-dropdown": "^1.2",
+    "react-modal-dialog": "^4.0.7",
+    "react-native-button": "^1.8.2",
+    "react-redux": "^5.0",
+    "react-spinjs": "^3.0.0",
+    "react-table": "^6.0",
+    "redux": "3.6"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
